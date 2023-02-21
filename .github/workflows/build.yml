@@ -27,5 +27,5 @@ jobs:
     - name: publish artifact
       uses: actions/upload-artifact@v2
       with:
-       path: ${{ github.workspace }}/
+       path: ${{ github.workspace }}/deb
        name: ${{ github.run_number }}
