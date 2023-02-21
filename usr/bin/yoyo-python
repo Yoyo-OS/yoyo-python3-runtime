@@ -1,0 +1,4 @@
+#!/bin/bash
+source /usr/share/yoyo-python/bin/activate
+python3 "$@"
+deactivate

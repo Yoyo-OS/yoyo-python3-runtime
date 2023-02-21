@@ -1,0 +1,15 @@
+Source: yoyo-python3-runtime
+Section: metapackages
+Priority: required
+Maintainer: Yoyo <admin@yzzi.icu>
+Uploaders: Yoyo <admin@yzzi.icu>
+Build-Depends: debhelper (>= 10), python3
+Standards-Version: 3.9.8
+Homepage: https://github.com/Yoyo-OS/yoyo-python3-runtime
+
+Package: yoyo-python3-runtime
+Architecture: all
+Essential: yes
+Depends: ${misc:Depends},
+         python3,
+Description: YoyoOS Python3 Runtime

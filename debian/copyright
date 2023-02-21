@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: yoyo-python3-runtime
+Source: https://github.com/Yoyo-OS/yoyo-python3-runtime
+
+Files: *
+Copyright: Copyright 2022 YoyoOS
+License: GPL-3+

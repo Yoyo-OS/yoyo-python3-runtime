@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+DESTDIR = debian/yoyo-python3-runtime
+CLEAN ?= 1
+VENDOR ?= 1
+
+%:
+	dh $@
+
+override_dh_shlibdeps:
+	dh_shlibdeps --dpkg-shlibdeps-params=--ignore-missing-info
+
+override_dh_auto_build:
+	./src/new-venv .

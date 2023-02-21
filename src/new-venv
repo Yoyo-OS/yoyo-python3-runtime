@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+rootdir="$1"
+prefix="$rootdir/usr"
+venvdir="$prefix/share"
+
+mkdir -p "$venvdir"
+cd "$venvdir"
+python3 -m venv yoyo-python
+source yoyo-python/bin/activate
+# do something
+deactivate
