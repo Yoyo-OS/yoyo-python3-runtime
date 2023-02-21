@@ -3,7 +3,7 @@ Section: metapackages
 Priority: required
 Maintainer: Yoyo <admin@yzzi.icu>
 Uploaders: Yoyo <admin@yzzi.icu>
-Build-Depends: debhelper (>= 10), python3
+Build-Depends: debhelper (>= 10), python3, python3.10-venv
 Standards-Version: 3.9.8
 Homepage: https://github.com/Yoyo-OS/yoyo-python3-runtime
 
